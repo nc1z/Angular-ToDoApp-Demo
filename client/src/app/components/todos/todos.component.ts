@@ -8,7 +8,7 @@ import { Todo } from '../../models/Todo'
 })
 export class TodosComponent implements OnInit {
 
-  todos:Todo[];
+  todos: Todo[] = [];
 
   constructor() { }
 
