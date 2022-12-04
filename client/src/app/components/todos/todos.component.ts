@@ -38,4 +38,8 @@ export class TodosComponent implements OnInit {
       return value;
     })
   }
+
+  deleteTodo(id: number): void {
+    this.todos = this.todos.filter((value, idx) => idx !== id);
+  }
 }
