@@ -1,2 +1,3 @@
 # Angular-ToDoApp-Demo
-Guided FrontEnd Project
+
+Guided FrontEnd Project with AngularJs & TypeScript
